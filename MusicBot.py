@@ -136,7 +136,7 @@ async def play(ctx: discord.Message, link: str) -> None:
 
             server = ctx.message.guild
             voice_channel = server.voice_client
-            voice_channel.play(discord.FFmpegPCMAudio(executable="ffmpeg.exe", source=filename))
+            voice_channel.play(discord.FFmpegPCMAudio(executable=config.encoder, source=filename))
 
             console_log(f"{ctx.author.name}#{ctx.author.discriminator} "
                         f"used !play in server {ctx.guild.name} "
