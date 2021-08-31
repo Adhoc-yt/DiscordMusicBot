@@ -1,0 +1,55 @@
+{
+    "play": {
+        "ACTIVATE": true,
+        "role": [
+            "Administrateur",
+            "Anciens"
+        ]
+    },
+    "stop": {
+        "ACTIVATE": true,
+        "role": [
+            "Administrateur"
+        ],
+        "self": true
+    },
+    "pause": {
+        "ACTIVATE": true,
+        "role": [
+            "Administrateur"
+        ],
+        "self": true
+    },
+    "resume": {
+        "ACTIVATE": true,
+        "role": [
+            "Administrateur"
+        ],
+        "self": true
+    },
+    "skip": {
+        "ACTIVATE": true,
+        "role": [
+            "Administrateur"
+        ],
+        "self": true
+    },
+    "leave": {
+        "ACTIVATE": true,
+        "role": [
+            "Administrateur"
+        ]
+    },
+    "skip vote": {
+        "ACTIVATE": true,
+        "rate": 0.5
+    },
+    "CONFIG": {
+        "authorized link": [
+            "https://www.youtube.com/",
+            "https://www.youtu.be/"
+        ],
+        "music folder": "music/",
+        "encoder": "ffmpeg.exe"
+    }
+}
